@@ -1,0 +1,6002 @@
+[
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0000.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0001.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0002.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0003.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0004.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0005.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0006.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0007.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0008.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0009.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0010.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0011.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0012.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0013.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0014.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0015.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0016.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0017.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0018.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0019.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0020.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0021.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0022.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0023.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0024.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0025.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0026.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0027.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0028.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0029.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0030.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0031.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0032.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0033.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0034.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0035.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0036.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0037.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0038.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0039.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0040.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0041.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0042.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0043.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0044.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0045.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0046.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0047.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0048.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0049.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0050.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0051.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0052.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0053.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0054.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0055.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0056.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0057.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0058.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0059.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0060.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0061.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0062.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0063.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0064.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0065.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0066.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0067.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0068.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0069.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0070.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0071.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0072.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0073.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0074.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0075.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0076.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0077.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0078.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0079.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0080.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0081.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0082.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0083.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0084.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0085.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0086.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0087.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0088.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0089.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0090.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0091.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0092.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0093.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0094.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0095.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0096.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0097.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0098.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0099.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0100.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0101.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0102.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0103.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0104.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0105.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0106.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0107.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0108.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0109.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0110.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0111.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0112.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0113.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0114.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0115.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0116.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0117.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0118.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0119.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0120.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0121.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0122.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0123.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0124.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0125.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0126.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0127.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0128.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0129.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0130.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0131.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0132.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0133.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0134.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0135.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0136.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0137.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0138.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0139.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0140.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0141.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0142.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0143.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0144.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0145.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0146.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0147.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0148.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/airplane/airplane_0149.png",
+    "label": "airplane"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0000.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0001.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0002.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0003.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0004.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0005.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0006.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0007.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0008.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0009.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0010.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0011.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0012.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0013.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0014.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0015.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0016.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0017.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0018.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0019.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0020.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0021.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0022.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0023.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0024.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0025.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0026.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0027.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0028.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0029.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0030.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0031.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0032.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0033.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0034.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0035.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0036.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0037.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0038.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0039.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0040.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0041.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0042.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0043.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0044.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0045.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0046.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0047.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0048.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0049.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0050.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0051.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0052.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0053.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0054.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0055.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0056.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0057.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0058.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0059.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0060.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0061.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0062.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0063.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0064.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0065.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0066.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0067.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0068.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0069.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0070.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0071.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0072.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0073.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0074.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0075.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0076.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0077.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0078.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0079.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0080.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0081.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0082.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0083.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0084.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0085.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0086.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0087.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0088.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0089.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0090.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0091.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0092.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0093.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0094.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0095.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0096.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0097.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0098.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0099.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0100.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0101.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0102.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0103.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0104.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0105.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0106.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0107.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0108.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0109.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0110.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0111.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0112.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0113.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0114.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0115.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0116.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0117.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0118.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0119.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0120.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0121.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0122.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0123.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0124.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0125.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0126.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0127.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0128.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0129.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0130.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0131.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0132.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0133.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0134.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0135.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0136.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0137.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0138.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0139.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0140.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0141.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0142.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0143.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0144.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0145.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0146.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0147.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0148.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/automobile/automobile_0149.png",
+    "label": "automobile"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0000.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0001.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0002.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0003.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0004.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0005.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0006.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0007.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0008.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0009.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0010.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0011.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0012.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0013.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0014.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0015.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0016.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0017.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0018.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0019.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0020.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0021.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0022.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0023.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0024.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0025.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0026.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0027.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0028.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0029.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0030.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0031.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0032.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0033.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0034.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0035.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0036.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0037.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0038.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0039.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0040.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0041.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0042.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0043.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0044.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0045.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0046.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0047.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0048.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0049.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0050.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0051.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0052.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0053.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0054.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0055.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0056.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0057.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0058.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0059.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0060.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0061.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0062.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0063.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0064.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0065.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0066.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0067.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0068.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0069.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0070.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0071.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0072.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0073.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0074.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0075.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0076.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0077.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0078.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0079.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0080.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0081.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0082.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0083.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0084.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0085.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0086.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0087.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0088.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0089.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0090.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0091.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0092.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0093.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0094.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0095.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0096.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0097.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0098.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0099.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0100.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0101.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0102.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0103.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0104.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0105.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0106.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0107.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0108.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0109.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0110.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0111.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0112.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0113.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0114.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0115.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0116.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0117.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0118.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0119.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0120.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0121.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0122.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0123.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0124.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0125.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0126.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0127.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0128.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0129.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0130.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0131.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0132.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0133.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0134.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0135.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0136.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0137.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0138.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0139.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0140.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0141.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0142.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0143.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0144.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0145.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0146.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0147.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0148.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/bird/bird_0149.png",
+    "label": "bird"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0000.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0001.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0002.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0003.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0004.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0005.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0006.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0007.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0008.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0009.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0010.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0011.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0012.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0013.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0014.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0015.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0016.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0017.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0018.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0019.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0020.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0021.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0022.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0023.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0024.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0025.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0026.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0027.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0028.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0029.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0030.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0031.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0032.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0033.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0034.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0035.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0036.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0037.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0038.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0039.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0040.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0041.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0042.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0043.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0044.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0045.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0046.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0047.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0048.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0049.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0050.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0051.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0052.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0053.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0054.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0055.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0056.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0057.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0058.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0059.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0060.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0061.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0062.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0063.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0064.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0065.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0066.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0067.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0068.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0069.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0070.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0071.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0072.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0073.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0074.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0075.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0076.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0077.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0078.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0079.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0080.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0081.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0082.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0083.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0084.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0085.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0086.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0087.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0088.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0089.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0090.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0091.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0092.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0093.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0094.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0095.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0096.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0097.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0098.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0099.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0100.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0101.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0102.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0103.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0104.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0105.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0106.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0107.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0108.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0109.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0110.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0111.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0112.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0113.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0114.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0115.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0116.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0117.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0118.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0119.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0120.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0121.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0122.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0123.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0124.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0125.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0126.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0127.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0128.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0129.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0130.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0131.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0132.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0133.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0134.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0135.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0136.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0137.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0138.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0139.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0140.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0141.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0142.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0143.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0144.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0145.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0146.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0147.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0148.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/cat/cat_0149.png",
+    "label": "cat"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0000.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0001.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0002.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0003.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0004.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0005.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0006.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0007.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0008.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0009.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0010.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0011.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0012.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0013.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0014.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0015.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0016.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0017.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0018.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0019.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0020.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0021.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0022.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0023.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0024.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0025.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0026.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0027.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0028.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0029.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0030.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0031.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0032.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0033.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0034.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0035.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0036.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0037.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0038.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0039.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0040.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0041.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0042.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0043.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0044.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0045.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0046.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0047.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0048.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0049.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0050.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0051.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0052.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0053.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0054.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0055.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0056.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0057.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0058.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0059.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0060.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0061.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0062.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0063.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0064.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0065.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0066.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0067.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0068.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0069.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0070.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0071.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0072.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0073.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0074.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0075.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0076.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0077.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0078.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0079.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0080.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0081.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0082.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0083.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0084.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0085.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0086.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0087.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0088.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0089.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0090.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0091.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0092.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0093.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0094.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0095.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0096.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0097.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0098.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0099.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0100.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0101.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0102.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0103.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0104.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0105.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0106.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0107.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0108.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0109.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0110.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0111.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0112.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0113.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0114.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0115.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0116.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0117.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0118.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0119.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0120.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0121.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0122.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0123.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0124.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0125.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0126.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0127.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0128.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0129.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0130.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0131.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0132.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0133.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0134.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0135.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0136.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0137.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0138.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0139.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0140.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0141.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0142.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0143.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0144.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0145.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0146.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0147.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0148.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/deer/deer_0149.png",
+    "label": "deer"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0000.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0001.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0002.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0003.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0004.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0005.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0006.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0007.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0008.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0009.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0010.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0011.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0012.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0013.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0014.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0015.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0016.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0017.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0018.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0019.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0020.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0021.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0022.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0023.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0024.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0025.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0026.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0027.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0028.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0029.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0030.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0031.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0032.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0033.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0034.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0035.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0036.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0037.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0038.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0039.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0040.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0041.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0042.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0043.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0044.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0045.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0046.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0047.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0048.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0049.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0050.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0051.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0052.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0053.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0054.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0055.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0056.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0057.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0058.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0059.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0060.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0061.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0062.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0063.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0064.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0065.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0066.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0067.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0068.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0069.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0070.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0071.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0072.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0073.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0074.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0075.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0076.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0077.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0078.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0079.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0080.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0081.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0082.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0083.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0084.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0085.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0086.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0087.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0088.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0089.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0090.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0091.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0092.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0093.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0094.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0095.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0096.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0097.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0098.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0099.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0100.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0101.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0102.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0103.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0104.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0105.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0106.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0107.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0108.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0109.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0110.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0111.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0112.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0113.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0114.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0115.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0116.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0117.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0118.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0119.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0120.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0121.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0122.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0123.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0124.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0125.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0126.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0127.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0128.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0129.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0130.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0131.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0132.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0133.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0134.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0135.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0136.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0137.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0138.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0139.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0140.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0141.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0142.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0143.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0144.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0145.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0146.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0147.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0148.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/dog/dog_0149.png",
+    "label": "dog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0000.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0001.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0002.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0003.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0004.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0005.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0006.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0007.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0008.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0009.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0010.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0011.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0012.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0013.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0014.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0015.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0016.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0017.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0018.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0019.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0020.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0021.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0022.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0023.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0024.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0025.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0026.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0027.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0028.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0029.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0030.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0031.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0032.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0033.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0034.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0035.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0036.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0037.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0038.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0039.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0040.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0041.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0042.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0043.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0044.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0045.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0046.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0047.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0048.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0049.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0050.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0051.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0052.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0053.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0054.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0055.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0056.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0057.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0058.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0059.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0060.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0061.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0062.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0063.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0064.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0065.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0066.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0067.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0068.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0069.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0070.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0071.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0072.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0073.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0074.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0075.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0076.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0077.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0078.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0079.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0080.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0081.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0082.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0083.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0084.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0085.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0086.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0087.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0088.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0089.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0090.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0091.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0092.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0093.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0094.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0095.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0096.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0097.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0098.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0099.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0100.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0101.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0102.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0103.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0104.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0105.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0106.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0107.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0108.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0109.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0110.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0111.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0112.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0113.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0114.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0115.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0116.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0117.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0118.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0119.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0120.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0121.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0122.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0123.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0124.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0125.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0126.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0127.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0128.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0129.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0130.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0131.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0132.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0133.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0134.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0135.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0136.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0137.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0138.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0139.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0140.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0141.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0142.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0143.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0144.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0145.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0146.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0147.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0148.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/frog/frog_0149.png",
+    "label": "frog"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0000.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0001.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0002.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0003.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0004.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0005.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0006.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0007.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0008.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0009.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0010.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0011.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0012.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0013.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0014.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0015.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0016.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0017.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0018.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0019.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0020.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0021.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0022.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0023.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0024.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0025.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0026.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0027.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0028.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0029.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0030.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0031.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0032.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0033.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0034.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0035.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0036.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0037.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0038.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0039.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0040.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0041.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0042.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0043.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0044.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0045.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0046.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0047.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0048.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0049.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0050.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0051.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0052.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0053.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0054.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0055.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0056.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0057.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0058.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0059.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0060.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0061.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0062.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0063.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0064.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0065.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0066.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0067.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0068.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0069.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0070.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0071.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0072.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0073.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0074.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0075.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0076.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0077.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0078.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0079.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0080.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0081.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0082.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0083.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0084.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0085.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0086.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0087.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0088.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0089.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0090.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0091.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0092.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0093.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0094.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0095.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0096.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0097.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0098.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0099.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0100.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0101.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0102.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0103.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0104.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0105.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0106.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0107.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0108.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0109.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0110.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0111.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0112.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0113.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0114.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0115.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0116.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0117.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0118.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0119.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0120.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0121.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0122.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0123.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0124.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0125.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0126.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0127.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0128.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0129.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0130.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0131.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0132.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0133.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0134.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0135.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0136.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0137.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0138.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0139.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0140.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0141.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0142.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0143.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0144.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0145.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0146.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0147.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0148.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/horse/horse_0149.png",
+    "label": "horse"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0000.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0001.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0002.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0003.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0004.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0005.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0006.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0007.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0008.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0009.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0010.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0011.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0012.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0013.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0014.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0015.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0016.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0017.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0018.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0019.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0020.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0021.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0022.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0023.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0024.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0025.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0026.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0027.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0028.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0029.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0030.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0031.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0032.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0033.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0034.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0035.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0036.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0037.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0038.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0039.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0040.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0041.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0042.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0043.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0044.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0045.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0046.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0047.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0048.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0049.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0050.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0051.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0052.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0053.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0054.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0055.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0056.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0057.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0058.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0059.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0060.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0061.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0062.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0063.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0064.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0065.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0066.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0067.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0068.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0069.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0070.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0071.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0072.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0073.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0074.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0075.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0076.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0077.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0078.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0079.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0080.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0081.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0082.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0083.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0084.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0085.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0086.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0087.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0088.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0089.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0090.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0091.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0092.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0093.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0094.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0095.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0096.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0097.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0098.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0099.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0100.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0101.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0102.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0103.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0104.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0105.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0106.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0107.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0108.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0109.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0110.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0111.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0112.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0113.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0114.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0115.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0116.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0117.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0118.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0119.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0120.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0121.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0122.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0123.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0124.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0125.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0126.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0127.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0128.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0129.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0130.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0131.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0132.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0133.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0134.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0135.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0136.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0137.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0138.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0139.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0140.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0141.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0142.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0143.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0144.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0145.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0146.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0147.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0148.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/ship/ship_0149.png",
+    "label": "ship"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0000.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0001.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0002.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0003.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0004.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0005.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0006.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0007.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0008.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0009.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0010.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0011.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0012.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0013.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0014.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0015.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0016.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0017.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0018.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0019.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0020.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0021.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0022.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0023.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0024.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0025.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0026.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0027.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0028.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0029.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0030.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0031.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0032.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0033.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0034.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0035.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0036.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0037.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0038.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0039.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0040.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0041.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0042.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0043.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0044.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0045.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0046.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0047.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0048.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0049.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0050.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0051.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0052.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0053.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0054.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0055.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0056.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0057.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0058.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0059.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0060.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0061.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0062.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0063.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0064.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0065.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0066.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0067.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0068.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0069.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0070.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0071.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0072.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0073.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0074.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0075.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0076.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0077.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0078.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0079.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0080.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0081.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0082.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0083.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0084.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0085.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0086.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0087.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0088.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0089.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0090.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0091.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0092.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0093.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0094.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0095.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0096.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0097.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0098.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0099.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0100.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0101.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0102.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0103.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0104.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0105.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0106.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0107.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0108.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0109.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0110.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0111.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0112.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0113.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0114.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0115.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0116.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0117.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0118.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0119.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0120.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0121.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0122.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0123.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0124.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0125.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0126.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0127.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0128.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0129.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0130.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0131.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0132.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0133.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0134.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0135.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0136.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0137.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0138.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0139.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0140.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0141.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0142.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0143.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0144.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0145.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0146.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0147.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0148.png",
+    "label": "truck"
+  },
+  {
+    "image_path": "cifar10_folder/truck/truck_0149.png",
+    "label": "truck"
+  }
+]

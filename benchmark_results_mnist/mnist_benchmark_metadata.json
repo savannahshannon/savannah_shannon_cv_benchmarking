@@ -1,0 +1,72 @@
+{
+  "dataset": "MNIST",
+  "color_mode": "grayscale",
+  "number_of_classes": 10,
+  "total_images": 1000,
+  "training_samples": 800,
+  "testing_samples": 200,
+  "best_model": "Simple CNN",
+  "best_macro_f1": 0.9096481466475794,
+  "results_summary": [
+    {
+      "Model": "Simple CNN",
+      "Accuracy": 0.91,
+      "Macro Precision": 0.9167457180500659,
+      "Macro Recall": 0.9099999999999999,
+      "Macro F1": 0.9096481466475794,
+      "Weighted F1": 0.9096481466475795,
+      "Training Time (s)": 7.549846887588501,
+      "Inference Time (ms/image)": 0.2189946174621582
+    },
+    {
+      "Model": "Neural Network",
+      "Accuracy": 0.88,
+      "Macro Precision": 0.8813389534442166,
+      "Macro Recall": 0.8799999999999999,
+      "Macro F1": 0.879705784160213,
+      "Weighted F1": 0.8797057841602128,
+      "Training Time (s)": 1.6445209980010986,
+      "Inference Time (ms/image)": 0.1214737892150879
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.88,
+      "Macro Precision": 0.8831361506533131,
+      "Macro Recall": 0.8799999999999999,
+      "Macro F1": 0.879634338566631,
+      "Weighted F1": 0.879634338566631,
+      "Training Time (s)": 0.1270759105682373,
+      "Inference Time (ms/image)": 0.07494056224822997
+    },
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.83,
+      "Macro Precision": 0.8313211951447246,
+      "Macro Recall": 0.8299999999999998,
+      "Macro F1": 0.8290502706998213,
+      "Weighted F1": 0.8290502706998214,
+      "Training Time (s)": 1.0709891319274902,
+      "Inference Time (ms/image)": 0.01087963581085205
+    },
+    {
+      "Model": "SVM",
+      "Accuracy": 0.8,
+      "Macro Precision": 0.8369736991524916,
+      "Macro Recall": 0.8,
+      "Macro F1": 0.8062116603371416,
+      "Weighted F1": 0.8062116603371416,
+      "Training Time (s)": 0.1760401725769043,
+      "Inference Time (ms/image)": 0.9937022924423218
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.675,
+      "Macro Precision": 0.6839220550616432,
+      "Macro Recall": 0.6749999999999999,
+      "Macro F1": 0.6733326856311004,
+      "Weighted F1": 0.6733326856311004,
+      "Training Time (s)": 0.32677507400512695,
+      "Inference Time (ms/image)": 0.008988022804260252
+    }
+  ]
+}

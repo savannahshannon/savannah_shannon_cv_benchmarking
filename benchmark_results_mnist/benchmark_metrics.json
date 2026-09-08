@@ -1,0 +1,56 @@
+{
+  "Simple CNN": {
+    "accuracy": 0.91,
+    "macro_precision": 0.9167457180500659,
+    "macro_recall": 0.9099999999999999,
+    "macro_f1": 0.9096481466475794,
+    "weighted_f1": 0.9096481466475795,
+    "train_time": 7.549846887588501,
+    "inference_time": 0.2189946174621582
+  },
+  "Neural Network": {
+    "accuracy": 0.88,
+    "macro_precision": 0.8813389534442166,
+    "macro_recall": 0.8799999999999999,
+    "macro_f1": 0.879705784160213,
+    "weighted_f1": 0.8797057841602128,
+    "train_time": 1.6445209980010986,
+    "inference_time": 0.1214737892150879
+  },
+  "Random Forest": {
+    "accuracy": 0.88,
+    "macro_precision": 0.8831361506533131,
+    "macro_recall": 0.8799999999999999,
+    "macro_f1": 0.879634338566631,
+    "weighted_f1": 0.879634338566631,
+    "train_time": 0.1270759105682373,
+    "inference_time": 0.07494056224822997
+  },
+  "Logistic Regression": {
+    "accuracy": 0.83,
+    "macro_precision": 0.8313211951447246,
+    "macro_recall": 0.8299999999999998,
+    "macro_f1": 0.8290502706998213,
+    "weighted_f1": 0.8290502706998214,
+    "train_time": 1.0709891319274902,
+    "inference_time": 0.01087963581085205
+  },
+  "SVM": {
+    "accuracy": 0.8,
+    "macro_precision": 0.8369736991524916,
+    "macro_recall": 0.8,
+    "macro_f1": 0.8062116603371416,
+    "weighted_f1": 0.8062116603371416,
+    "train_time": 0.1760401725769043,
+    "inference_time": 0.9937022924423218
+  },
+  "Decision Tree": {
+    "accuracy": 0.675,
+    "macro_precision": 0.6839220550616432,
+    "macro_recall": 0.6749999999999999,
+    "macro_f1": 0.6733326856311004,
+    "weighted_f1": 0.6733326856311004,
+    "train_time": 0.32677507400512695,
+    "inference_time": 0.008988022804260252
+  }
+}

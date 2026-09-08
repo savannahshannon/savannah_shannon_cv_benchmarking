@@ -1,0 +1,447 @@
+Metadata-Version: 2.4
+Name: Savannah_Shannon_CV_Benchmarking
+Version: 1.0.0
+Summary: A resuable Python package for benchmarking image classification models fairly
+Author-email: Savannah Shannon <snshannon2002@gmail.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: pandas>=1.3.0
+Requires-Dist: pillow>=8.0.0
+Requires-Dist: scikit-learn>=1.0.0
+Requires-Dist: matplotlib>=3.4.0
+Requires-Dist: seaborn>=0.11.0
+Provides-Extra: tensorflow
+Requires-Dist: tensorflow>=2.8.0; extra == "tensorflow"
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Dynamic: license-file
+
+# Savannah Shannon CV Benchmarking
+
+A reusable Python package for automated image classification benchmarking across multiple classical and neural network models.
+
+**Automatically train and compare 6 classifiers** on your dataset:
+- **Classical Models:** Logistic Regression, Decision Tree, Random Forest, Support Vector Machine
+- **Neural Models:** Fully Connected Neural Network, Simple Convolutional Neural Network
+
+---
+
+## Installation
+
+Install directly from PyPI:
+
+```bash
+pip install Savannah_Shannon_CV_Benchmarking
+```
+
+Or install from source:
+
+```bash
+git clone https://github.com/yourusername/savannah_shannon_cv_benchmarking.git
+cd savannah_shannon_cv_benchmarking
+pip install -e .
+```
+
+---
+
+## Quick Start
+
+```python
+from savannah_shannon_cv_benchmarking import benchmark_image_classification
+
+# Benchmark on your dataset
+results = benchmark_image_classification(
+    dataset="path/to/your/dataset",
+    dataset_type="folder",           # See supported formats below
+    target_labels=["class1", "class2"],
+    color_mode="rgb"
+)
+
+# Access results
+print(results['summary'])                    # DataFrame with all metrics
+print(f"Best model: {results['best_model']}")
+print(results['dataset_information'])
+```
+
+---
+
+## Supported Dataset Formats
+
+### 1. Folder Structure (Class Subfolders)
+
+Organize images in class subfolders:
+
+```
+animals/
+├── cat/
+│   ├── cat_001.jpg
+│   └── cat_002.jpg
+├── dog/
+│   └── dog_001.jpg
+```
+
+```python
+results = benchmark_image_classification(
+    dataset="./animals",
+    dataset_type="folder",
+    target_labels=["cat", "dog"],
+    color_mode="rgb"
+)
+```
+
+### 2. CSV Manifest
+
+CSV file with `image_path` and label columns:
+
+```csv
+image_path,class_name
+images/001.jpg,cat
+images/002.jpg,dog
+```
+
+```python
+results = benchmark_image_classification(
+    dataset="./labels.csv",
+    dataset_type="csv",
+    target_labels="class_name",
+    color_mode="rgb"
+)
+```
+
+### 3. JSON/JSONL Manifest
+
+JSON file with records containing `image_path` and label:
+
+```json
+[
+  {"image_path": "images/001.jpg", "class_name": "cat"},
+  {"image_path": "images/002.jpg", "class_name": "dog"}
+]
+```
+
+```python
+results = benchmark_image_classification(
+    dataset="./labels.json",
+    dataset_type="json",
+    target_labels="class_name",
+    color_mode="rgb"
+)
+```
+
+### 4. NumPy Array (In-Memory)
+
+```python
+import numpy as np
+
+# Create or load image array: shape (N, Height, Width, Channels) or (N, Height, Width)
+X = np.random.randint(0, 256, (100, 64, 64, 3), dtype=np.uint8)
+y = np.array([0]*50 + [1]*50)  # Class labels
+
+results = benchmark_image_classification(
+    dataset=X,
+    dataset_type="array",
+    target_labels=y,
+    color_mode="rgb"
+)
+```
+
+---
+
+## API Reference
+
+### `benchmark_image_classification()`
+
+```python
+def benchmark_image_classification(
+    dataset: Union[str, np.ndarray, pd.DataFrame],
+    dataset_type: str,
+    target_labels: Union[str, List, np.ndarray],
+    color_mode: str,
+    output_dir: str = 'benchmark_results'
+) -> dict
+```
+
+**Parameters:**
+- `dataset` - Dataset path or array
+- `dataset_type` - One of: `"folder"`, `"csv"`, `"json"`, `"jsonl"`, `"array"`
+- `target_labels` - Class names (folder) or label column name (CSV/JSON) or label array
+- `color_mode` - `"grayscale"` (1 channel) or `"rgb"` (3 channels)
+- `output_dir` - Directory for results (default: `benchmark_results/`)
+
+**Returns:**
+Dictionary containing:
+- `summary` - DataFrame with all model metrics (sorted by Macro F1)
+- `best_model` - Name of best-performing model
+- `dataset_information` - Dataset metadata
+- `split_information` - Train-test split details
+- `model_results` - Per-model metrics
+- `confusion_matrices` - Confusion matrices for each model
+- `classification_reports` - Per-class precision/recall/F1
+- `output_files` - Paths to generated visualizations
+
+---
+
+## Benchmark Results
+
+### MNIST (Grayscale, 10 Classes)
+
+**Dataset:** 1,000 handwritten digits (100 per class)  
+**Split:** 800 training, 200 testing  
+**Input Format:** Folder structure  
+**Color Mode:** Grayscale (64×64×1)
+
+| Model | Accuracy | Macro F1 | Training Time | Inference Time |
+|-------|----------|----------|---------------|----------------|
+| **Simple CNN** | 91.0% | **0.9096** | 7.55s | 0.219ms/img |
+| Neural Network | 88.0% | 0.8797 | 1.64s | 0.121ms/img |
+| Random Forest | 88.0% | 0.8796 | 0.13s | 0.075ms/img |
+| Logistic Regression | 83.0% | 0.8291 | 1.07s | 0.011ms/img |
+| SVM | 80.0% | 0.8062 | 0.18s | 0.994ms/img |
+| Decision Tree | 67.5% | 0.6733 | 0.33s | 0.009ms/img |
+
+**Key Findings:**
+- Simple CNN achieves the highest accuracy (91%) on handwritten digit classification
+- Classical methods (Random Forest, Logistic Regression) perform surprisingly well
+- Decision Tree is fastest but least accurate
+- Digit recognition is a solved problem with high performance across all models
+
+### CIFAR-10 (RGB, 10 Classes)
+
+**Dataset:** 1,500 natural object images (150 per class)  
+**Split:** 1,200 training, 300 testing  
+**Input Format:** CSV manifest  
+**Color Mode:** RGB (64×64×3)
+
+| Model | Accuracy | Macro F1 | Training Time | Inference Time |
+|-------|----------|----------|---------------|----------------|
+| **Simple CNN** | 39.0% | **0.3810** | 11.94s | 0.203ms/img |
+| SVM | 38.0% | 0.3700 | 3.23s | 5.365ms/img |
+| Random Forest | 34.7% | 0.3374 | 0.84s | 0.069ms/img |
+| Logistic Regression | 25.3% | 0.2496 | 4.02s | 0.031ms/img |
+| Decision Tree | 19.0% | 0.1851 | 6.00s | 0.023ms/img |
+| Neural Network | 10.0% | 0.0182 | 2.91s | 0.102ms/img |
+
+**Key Findings:**
+- CIFAR-10 is significantly more challenging (39% vs 91% on MNIST)
+- CNN still outperforms but with much lower margins
+- Classical methods (SVM, Random Forest) are competitive on RGB data
+- Small dataset size (1,500 images) limits neural network performance
+- Larger datasets and longer training would improve all models
+
+---
+
+## Result Interpretation
+
+### Accuracy vs Macro F1-Score
+
+This package prioritizes **Macro F1-score** because it:
+- Weights each class equally (unlike accuracy which biases toward majority classes)
+- Combines precision and recall in a single metric
+- Better reflects performance on imbalanced datasets
+
+### Training Time vs Inference Time
+
+- **Training time:** Critical for model development. Simple CNN trains quickly on small datasets.
+- **Inference time:** Important for deployment. Logistic Regression is fastest (0.01-0.03ms/img).
+
+### Model Selection Guide
+
+| Use Case | Recommended Model |
+|----------|-------------------|
+| High accuracy needed | Simple CNN |
+| Fast deployment | Logistic Regression or Random Forest |
+| Balanced performance | Random Forest or SVM |
+| Interpretability needed | Decision Tree |
+| Small dataset | Random Forest or SVM |
+| Large dataset | Simple CNN or Neural Network |
+
+---
+
+## Examples
+
+See the `examples/` folder for complete runnable scripts:
+
+```bash
+# Grayscale classification
+python examples/grayscale_example.py
+
+# RGB classification  
+python examples/rgb_example.py
+
+# Folder input format
+python examples/folder_input_example.py
+
+# CSV manifest format
+python examples/csv_input_example.py
+
+# JSON manifest format
+python examples/json_input_example.py
+
+# NumPy array format
+python examples/array_input_example.py
+```
+
+---
+
+## Output Files
+
+The package generates comprehensive results in the specified `output_dir`:
+
+```
+benchmark_results/
+├── benchmark_summary.csv              # All metrics in tabular format
+├── benchmark_metrics.json             # Metrics as JSON
+├── run_configuration.json             # Experiment configuration
+├── class_distribution.png             # Dataset class balance
+├── split_distribution.png             # Train-test split visualization
+├── model_comparison.png               # Performance comparison chart
+├── precision_recall_comparison.png    # Precision vs recall tradeoff
+├── confusion_matrix_*.png             # One matrix per model
+└── classification_reports/
+    └── *.csv                          # Per-class metrics per model
+```
+
+---
+
+## Package Structure
+
+```
+savannah_shannon_cv_benchmarking/
+├── src/savannah_shannon_cv_benchmarking/
+│   ├── __init__.py
+│   ├── benchmark_image_classification.py   # Main orchestration
+│   ├── data_loader.py                      # Dataset loading
+│   ├── preprocessing.py                    # Image preprocessing
+│   ├── classical_models.py                 # Sklearn models
+│   ├── neural_models.py                    # TensorFlow/Keras models
+│   ├── evaluation.py                       # Metrics computation
+│   └── visualization.py                    # Plot generation
+├── examples/                          # Runnable example scripts
+├── tests/                            # Unit tests (pytest)
+├── pyproject.toml                    # Package metadata
+├── README.md                         # This file
+└── LICENSE                           # MIT License
+```
+
+---
+
+## Requirements
+
+- Python 3.8+
+- NumPy
+- Pandas
+- Scikit-learn
+- TensorFlow/Keras
+- Pillow (PIL)
+- Matplotlib
+
+Install all dependencies:
+```bash
+pip install numpy pandas scikit-learn tensorflow pillow matplotlib
+```
+
+---
+
+## Development
+
+Clone and install in development mode:
+
+```bash
+git clone https://github.com/yourusername/savannah_shannon_cv_benchmarking.git
+cd savannah_shannon_cv_benchmarking
+pip install -e ".[dev]"
+pytest tests/
+```
+
+---
+
+## Testing
+
+Run the complete test suite:
+
+```bash
+pytest tests/test_benchmark.py -v
+```
+
+Tests cover:
+- All 4 dataset input formats
+- Grayscale and RGB preprocessing
+- Stratified train-test splitting
+- All 6 models training and prediction
+- Output file generation
+- Result dictionary structure
+
+---
+
+## Author
+
+**Savannah Shannon**
+- Email: snshannon2002@gmail.com
+- GitHub: [github.com/yourusername](https://github.com/yourusername)
+- Clark Atlanta University, Ph.D. in Computer Science (AI concentration)
+
+---
+
+## License
+
+MIT License - See LICENSE file for details
+
+---
+
+## Citation
+
+If you use this package in your research, please cite:
+
+```
+Shannon, S. (2026). Savannah Shannon CV Benchmarking: 
+A Python library for automated image classification benchmarking. 
+Available at https://github.com/yourusername/savannah_shannon_cv_benchmarking
+```
+
+---
+
+## Acknowledgments
+
+Built with:
+- TensorFlow/Keras for neural networks
+- Scikit-learn for classical models
+- Matplotlib for visualizations
+
+---
+
+## Version History
+
+**v1.0.0** (2026-09-08)
+- Initial public release
+- Support for 4 dataset formats (folder, CSV, JSON, array)
+- 6 classification models (4 classical + 2 neural)
+- Comprehensive evaluation metrics and visualizations
+- Full test coverage
+
+---
+
+## Support
+
+For issues, feature requests, or questions:
+- Open an issue on GitHub
+- Email: snshannon2002@gmail.com
+- Documentation: See examples/ and tests/ folders
+
+---
+
+**Ready to benchmark your dataset?**
+
+```python
+from savannah_shannon_cv_benchmarking import benchmark_image_classification
+
+results = benchmark_image_classification(
+    dataset="your_dataset_path",
+    dataset_type="folder",
+    target_labels=["class1", "class2"],
+    color_mode="rgb"
+)
+```
