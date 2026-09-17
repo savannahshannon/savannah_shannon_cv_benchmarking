@@ -1,0 +1,18 @@
+# Datasets (too large for GitHub)
+datasets/
+data/
+*.tar.gz
+
+# Model checkpoints (too large for GitHub)
+cnn_results/checkpoints/
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
