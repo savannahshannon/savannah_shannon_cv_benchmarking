@@ -11,6 +11,10 @@ from typing import Tuple, List, Union, Dict, Any
 from PIL import Image
 import json
 
+import torch
+import torchvision
+import torchvision.transforms as transforms
+from torch.utils.data import DataLoader as TorchDataLoader, random_split
 
 class DataLoader:
 
@@ -206,3 +210,100 @@ class DataLoader:
 
         return (np.array(images), labels, class_names,
                 {'format': 'array', 'n_images': len(images), 'skipped_files': 0})
+
+
+# PyTorch DataLoader utilities for CNN benchmarking
+import torch
+import torchvision
+import torchvision.transforms as transforms
+from torch.utils.data import DataLoader, random_split
+
+
+def get_data_loaders(dataset_name: str = 'cifar10',
+                     batch_size: int = 128,
+                     data_root: str = './datasets',
+                     num_workers: int = 4,
+                     seed: int = 42) -> Tuple[TorchDataLoader, TorchDataLoader, TorchDataLoader]:
+    """
+    Load dataset and return train, validation, and test DataLoaders.
+    
+    Args:
+        dataset_name: Name of dataset ('cifar10' or 'mnist')
+        batch_size: Batch size for training
+        data_root: Root directory for datasets
+        num_workers: Number of workers for data loading
+        seed: Random seed for reproducibility
+        
+    Returns:
+        (train_loader, val_loader, test_loader)
+    """
+    
+    torch.manual_seed(seed)
+    
+    # Define transforms for different datasets
+    if dataset_name.lower() == 'cifar10':
+        # CIFAR-10: 32x32 images, need to resize to 224x224 for most pretrained models
+        train_transform = transforms.Compose([
+            transforms.Resize((224, 224)),
+            transforms.RandomHorizontalFlip(),
+            transforms.RandomAffine(degrees=10, translate=(0.1, 0.1)),
+            transforms.ToTensor(),
+            transforms.Normalize(mean=[0.485, 0.456, 0.406],
+                               std=[0.229, 0.224, 0.225])
+        ])
+        
+        test_transform = transforms.Compose([
+            transforms.Resize((224, 224)),
+            transforms.ToTensor(),
+            transforms.Normalize(mean=[0.485, 0.456, 0.406],
+                               std=[0.229, 0.224, 0.225])
+        ])
+        
+        # Load CIFAR-10
+        train_dataset = torchvision.datasets.CIFAR10(root=data_root, train=True, 
+                                                     download=True, transform=train_transform)
+        test_dataset = torchvision.datasets.CIFAR10(root=data_root, train=False,
+                                                    download=True, transform=test_transform)
+        
+    elif dataset_name.lower() == 'mnist':
+        # MNIST: 28x28 grayscale, resize to 224x224 and convert to RGB
+        train_transform = transforms.Compose([
+            transforms.Resize((224, 224)),
+            transforms.ToTensor(),
+            transforms.Lambda(lambda x: x.repeat(3, 1, 1) if x.shape[0] == 1 else x),  # Convert to RGB
+            transforms.Normalize(mean=[0.485, 0.456, 0.406],
+                               std=[0.229, 0.224, 0.225])
+        ])
+        
+        test_transform = transforms.Compose([
+            transforms.Resize((224, 224)),
+            transforms.ToTensor(),
+            transforms.Lambda(lambda x: x.repeat(3, 1, 1) if x.shape[0] == 1 else x),
+            transforms.Normalize(mean=[0.485, 0.456, 0.406],
+                               std=[0.229, 0.224, 0.225])
+        ])
+        
+        # Load MNIST
+        train_dataset = torchvision.datasets.MNIST(root=data_root, train=True,
+                                                   download=True, transform=train_transform)
+        test_dataset = torchvision.datasets.MNIST(root=data_root, train=False,
+                                                  download=True, transform=test_transform)
+    else:
+        raise ValueError(f"Unsupported dataset: {dataset_name}")
+    
+    # Split training data into train (80%) and validation (20%)
+    train_size = int(0.8 * len(train_dataset))
+    val_size = len(train_dataset) - train_size
+    
+    train_data, val_data = random_split(train_dataset, [train_size, val_size],
+                                       generator=torch.Generator().manual_seed(seed))
+    
+    # Create DataLoaders
+    train_loader = TorchDataLoader(train_data, batch_size=batch_size, shuffle=True,
+                             num_workers=num_workers, pin_memory=True)
+    val_loader = TorchDataLoader(val_data, batch_size=batch_size, shuffle=False,
+                           num_workers=num_workers, pin_memory=True)
+    test_loader = TorchDataLoader(test_dataset, batch_size=batch_size, shuffle=False,
+                            num_workers=num_workers, pin_memory=True)
+    
+    return train_loader, val_loader, test_loader
