@@ -1,0 +1,6 @@
+Model,Type,Params_M,Test_Acc
+efficientnet_b0,Pretrained,4.02,0.9367
+mobilenet_v2,Pretrained,2.24,0.9013
+resnet18,Pretrained,11.18,0.8849
+MediumCNN,Custom,3.11,0.8
+SimpleCNN,Custom,0.55,0.7605
