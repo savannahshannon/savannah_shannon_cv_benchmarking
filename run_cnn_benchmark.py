@@ -1,146 +1,208 @@
-#!/usr/bin/env python3
 """
-Main entry point for CNN benchmarking.
-Supports training all 10 architectures or specific models.
+Automated benchmark orchestrator: trains all CNN architectures sequentially.
+Handles memory management, error recovery, and result aggregation.
 
 Usage:
-    python run_cnn_benchmark.py --dataset cifar10 --model all --epochs 20
-    python run_cnn_benchmark.py --dataset cifar10 --model resnet50 --epochs 20
+    python run_all_models.py                    # Train all models
+    python run_all_models.py --epochs 10        # Custom epochs
+    python run_all_models.py --skip resnet50    # Skip specific models
 """
 
 import argparse
+import gc
+import os
+import subprocess
 import sys
+import time
+from datetime import datetime
+
 import torch
-from pathlib import Path
+import pandas as pd
 
-# Add src to path
-sys.path.insert(0, str(Path(__file__).parent / 'src'))
+# all 10 CNN architectures 
+ALL_MODELS = [
+    'alexnet',           # 2012 - historical baseline
+    'vgg16',             # 2014 - deep sequential
+    'googlenet',         # 2014 - inception modules
+    'resnet18',          # 2015 - residual (small)
+    'resnet50',          # 2015 - residual (large)
+    'densenet121',       # 2017 - dense connectivity
+    'mobilenet_v3_small', # 2019 - efficient (mobile)
+    'efficientnet_b0',   # 2019 - compound scaling
+    'convnext_tiny',     # 2022 - modernized
+    # YOLO handled separately (uses different framework)
+]
 
-from savannah_shannon_cv_benchmarking.data_loader import get_data_loaders
-from savannah_shannon_cv_benchmarking.cnn_benchmark import CNNBenchmark
+
+def clear_gpu_memory():
+    # free GPU memory between models
+    gc.collect()
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+        torch.cuda.reset_peak_memory_stats()
+        free_mem = torch.cuda.mem_get_info()[0] / 1e9
+        print(f"  GPU free: {free_mem:.2f} GB")
+
+
+def train_model(model_name, epochs, batch_size, dataset='cifar10'):
+    # run training for a single model via the existing benchmark script
+    cmd = [
+        sys.executable, 'run_cnn_benchmark.py',
+        '--dataset', dataset,
+        '--model', model_name,
+        '--epochs', str(epochs),
+        '--batch-size', str(batch_size),
+    ]
+    print(f"  Command: {' '.join(cmd)}")
+    result = subprocess.run(cmd, capture_output=False)
+    return result.returncode == 0
+
+
+def train_yolo_classification(epochs=5, batch_size=32):
+    # train YOLO in classification mode (uses ultralytics)
+    try:
+        from ultralytics import YOLO
+    except ImportError:
+        print("  Installing ultralytics...")
+        subprocess.run([sys.executable, '-m', 'pip', 'install', '-q', 'ultralytics'])
+        from ultralytics import YOLO
+    
+    model = YOLO('yolov8n-cls.pt')
+    results = model.train(
+        data='cifar10',
+        epochs=epochs,
+        imgsz=224,
+        batch=batch_size,
+        project='cnn_results/yolo',
+        name='cifar10_run',
+        exist_ok=True,
+    )
+    return True
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description='CNN Benchmarking Suite for ML Comparison Project'
-    )
-    
-    parser.add_argument('--dataset', type=str, default='cifar10',
-                       choices=['cifar10', 'mnist'],
-                       help='Dataset to use for benchmarking')
-    
-    parser.add_argument('--model', type=str, default='all',
-                       choices=['all', 'resnet50', 'resnet18', 'densenet121',
-                               'efficientnet_b0', 'mobilenet_v2', 'vit_b_16',
-                               'convnext_tiny', 'alexnet', 'vgg16', 'inception_v3'],
-                       help='Model architecture to train (all for all architectures)')
-    
+    parser = argparse.ArgumentParser(description='Train all CNN architectures')
     parser.add_argument('--epochs', type=int, default=20,
-                       help='Number of training epochs')
-    
-    parser.add_argument('--batch-size', type=int, default=128,
-                       help='Batch size for training')
-    
-    parser.add_argument('--learning-rate', type=float, default=0.001,
-                       help='Learning rate for optimizer')
-    
-    parser.add_argument('--device', type=str, default='cuda',
-                       choices=['cuda', 'cpu'],
-                       help='Device to train on')
-    
+                        help='Training epochs per model (default: 20)')
+    parser.add_argument('--batch-size', type=int, default=32,
+                        help='Batch size (default: 32 for memory safety)')
+    parser.add_argument('--dataset', default='cifar10', choices=['cifar10', 'mnist'])
+    parser.add_argument('--skip', nargs='+', default=[],
+                        help='Model names to skip')
+    parser.add_argument('--only', nargs='+', default=None,
+                        help='Only train these specific models')
+    parser.add_argument('--include-yolo', action='store_true',
+                        help='Also train YOLO classification')
     args = parser.parse_args()
     
-    # Validate device
-    if args.device == 'cuda' and not torch.cuda.is_available():
-        print("CUDA not available, falling back to CPU")
-        args.device = 'cpu'
+    # determine which models to run
+    if args.only:
+        models = args.only
+    else:
+        models = [m for m in ALL_MODELS if m not in args.skip]
     
-    print(f"\n{'='*60}")
-    print(f"CNN Benchmarking Suite")
-    print(f"{'='*60}")
-    print(f"Dataset: {args.dataset}")
-    print(f"Models: {'All 10 architectures' if args.model == 'all' else args.model}")
-    print(f"Epochs: {args.epochs}")
-    print(f"Batch Size: {args.batch_size}")
-    print(f"Learning Rate: {args.learning_rate}")
-    print(f"Device: {args.device}")
-    print(f"{'='*60}\n")
+    print(f"\n{'='*70}")
+    print(f"AUTOMATED CNN BENCHMARK PIPELINE")
+    print(f"{'='*70}")
+    print(f"Dataset:      {args.dataset}")
+    print(f"Epochs:       {args.epochs}")
+    print(f"Batch size:   {args.batch_size}")
+    print(f"Device:       {'CUDA (' + torch.cuda.get_device_name(0) + ')' if torch.cuda.is_available() else 'CPU'}")
+    print(f"Models:       {len(models)} architectures")
+    for m in models:
+        print(f"                - {m}")
+    if args.include_yolo:
+        print(f"                - yolo_classification")
+    print(f"Started:      {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"{'='*70}\n")
     
-    # Load data
-    print("Loading data...")
-    try:
-        train_loader, val_loader, test_loader = get_data_loaders(
-            dataset_name=args.dataset,
-            batch_size=args.batch_size
-        )
-        print(f"✓ Data loaded successfully!")
-        print(f"  Train batches: {len(train_loader)}")
-        print(f"  Val batches: {len(val_loader)}")
-        print(f"  Test batches: {len(test_loader)}\n")
-    except Exception as e:
-        print(f"✗ Failed to load data: {e}")
-        return
+    # ensure output directories exist
+    os.makedirs('cnn_results/checkpoints', exist_ok=True)
+    os.makedirs('cnn_results/plots', exist_ok=True)
+    os.makedirs('cnn_results/confusion_matrices', exist_ok=True)
+    os.makedirs('cnn_results/logs', exist_ok=True)
     
-    # Initialize benchmark
-    benchmark = CNNBenchmark(
-        dataset_name=args.dataset,
-        checkpoint_dir='cnn_results/checkpoints',
-        results_dir='cnn_results'
-    )
+    # track results
+    log = []
+    pipeline_start = time.time()
     
-    # Determine which models to train
-    models_to_train = CNNBenchmark.ARCHITECTURES if args.model == 'all' else [args.model]
-    
-    # Train models
-    for i, model_name in enumerate(models_to_train, 1):
-        print(f"\n[{i}/{len(models_to_train)}] Training {model_name}...")
+    for idx, model_name in enumerate(models, 1):
+        print(f"\n{'#'*70}")
+        print(f"[{idx}/{len(models)}] {model_name.upper()}")
+        print(f"{'#'*70}")
+        
+        clear_gpu_memory()
+        model_start = time.time()
+        
         try:
-            result = benchmark.train_architecture(
-                model_name=model_name,
-                train_loader=train_loader,
-                val_loader=val_loader,
-                test_loader=test_loader,
+            success = train_model(
+                model_name,
                 epochs=args.epochs,
-                learning_rate=args.learning_rate,
-                num_classes=10
+                batch_size=args.batch_size,
+                dataset=args.dataset,
             )
-            print(f"✓ {model_name} completed - Test Acc: {result['test_accuracy']:.4f}")
+            elapsed = time.time() - model_start
+            status = 'SUCCESS' if success else 'FAILED'
+            print(f"\n[{idx}/{len(models)}] {model_name}: {status} ({elapsed:.1f}s)")
         except Exception as e:
-            print(f"✗ {model_name} failed: {str(e)}")
-            import traceback
-            traceback.print_exc()
-            continue
+            elapsed = time.time() - model_start
+            status = f'ERROR: {str(e)[:50]}'
+            print(f"\n[{idx}/{len(models)}] {model_name}: {status}")
+        
+        log.append({
+            'model': model_name,
+            'status': status,
+            'elapsed_sec': round(elapsed, 1),
+            'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+        })
+        
+        # clear memory before next model
+        clear_gpu_memory()
     
-    # Generate visualizations
-    print(f"\nGenerating visualizations...")
-    try:
-        benchmark.plot_accuracy_comparison()
-        benchmark.plot_efficiency_metrics()
-        benchmark.plot_confusion_matrices(num_classes=10)
-        print("✓ Visualizations generated")
-    except Exception as e:
-        print(f"⚠ Some visualizations failed: {e}")
+    # optional YOLO training
+    if args.include_yolo:
+        print(f"\n{'#'*70}")
+        print(f"[BONUS] YOLO CLASSIFICATION")
+        print(f"{'#'*70}")
+        clear_gpu_memory()
+        yolo_start = time.time()
+        try:
+            train_yolo_classification(epochs=args.epochs, batch_size=args.batch_size)
+            log.append({
+                'model': 'yolo_classification',
+                'status': 'SUCCESS',
+                'elapsed_sec': round(time.time() - yolo_start, 1),
+                'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+            })
+        except Exception as e:
+            log.append({
+                'model': 'yolo_classification',
+                'status': f'ERROR: {str(e)[:50]}',
+                'elapsed_sec': round(time.time() - yolo_start, 1),
+                'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+            })
     
-    # Save results
-    print(f"Saving results...")
-    try:
-        df = benchmark.save_results_csv('combined_ml_cnn_benchmark_results.csv')
-        print(f"✓ Results saved")
-    except Exception as e:
-        print(f"✗ Failed to save results: {e}")
-        return
+    # final summary
+    total_elapsed = time.time() - pipeline_start
+    print(f"\n{'='*70}")
+    print(f"PIPELINE COMPLETE")
+    print(f"{'='*70}")
+    print(f"Total time: {total_elapsed/60:.1f} minutes ({total_elapsed:.1f}s)")
+    print(f"\nPer-model status:")
+    for entry in log:
+        symbol = '✓' if entry['status'] == 'SUCCESS' else '✗'
+        print(f"  {symbol} {entry['model']:25} {entry['status']:20} {entry['elapsed_sec']:.1f}s")
     
-    print(f"\n{'='*60}")
-    print(f"Benchmark Complete!")
-    print(f"{'='*60}")
-    print(f"\nResults Summary (sorted by accuracy):")
-    print(df[['Model', 'Test_Accuracy', 'Inference_Latency_ms', 
-              'Model_Size_MB', 'Total_Parameters']].to_string(index=False))
-    print(f"\nOutputs saved to:")
-    print(f"  - Results: combined_ml_cnn_benchmark_results.csv")
-    print(f"  - Plots: cnn_results/plots/")
-    print(f"  - Confusion Matrices: cnn_results/confusion_matrices/")
-    print(f"  - Checkpoints: cnn_results/checkpoints/")
+    # save log
+    log_df = pd.DataFrame(log)
+    log_path = f"cnn_results/logs/pipeline_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+    log_df.to_csv(log_path, index=False)
+    print(f"\nPipeline log saved: {log_path}")
+    
+    # success count
+    success_count = sum(1 for e in log if e['status'] == 'SUCCESS')
+    print(f"\nSuccessful: {success_count}/{len(log)} models")
+    print(f"{'='*70}\n")
 
 
 if __name__ == '__main__':

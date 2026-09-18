@@ -74,6 +74,16 @@ def get_cnn_model(model_name: str, num_classes: int = 10, pretrained: bool = Tru
         model.fc = nn.Linear(in_features, num_classes)
         # Inception_V3 also has auxiliary classifiers
         model.AuxLogits.fc = nn.Linear(model.AuxLogits.fc.in_features, num_classes)
+    
+    elif model_name == 'mobilenet_v3_small':
+        model = models.mobilenet_v3_small(weights='DEFAULT')
+        model.classifier[3] = nn.Linear(1024, num_classes)
+    elif model_name == 'mobilenet_v3_large':
+        model = models.mobilenet_v3_large(weights='DEFAULT')
+        model.classifier[3] = nn.Linear(1280, num_classes)
+    elif model_name == 'googlenet':
+        model = models.googlenet(weights='DEFAULT', aux_logits=True)
+        model.fc = nn.Linear(1024, num_classes)
         
     else:
         raise ValueError(f"Unknown model: {model_name}. "
